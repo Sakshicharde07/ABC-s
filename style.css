@@ -1,0 +1,84 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #FFFAE5;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Titles */
+.title {
+    font-size: 3em;
+    color: #FF4500;
+    text-shadow: 2px 2px 5px #FFA500;
+}
+
+.subtitle {
+    font-size: 2em;
+    color: #008000;
+}
+
+/* Alphabet Letters */
+.letters-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.letter {
+    background: #3498db;
+    color: white;
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+/* Hover & Click Effects */
+.letter:hover {
+    background: #1abc9c;
+    transform: scale(1.2);
+}
+
+/* Image Display */
+.image-display img {
+    width: 300px;
+    height: 300px;
+    display: none;
+    border: 5px solid #FFA500;
+    border-radius: 20px;
+}
+
+/* Larger Font for Image Name */
+#imageName {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #008000;
+    margin-top: 15px;
+}
+
+/* Quiz Button */
+.quiz-btn {
+    background: #FF5733;
+    color: white;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.quiz-btn:hover {
+    background: #FF0000;
+}
