@@ -1,82 +1,89 @@
+/* General Styles */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
     background-color: #FFFAE5;
     margin: 0;
-    padding: 20px;
+    padding: 2vw;
+    height: 100vh;
+    overflow-y: auto; /* Enable scrolling */
 }
 
 /* Titles */
 .title {
-    font-size: 3em;
+    font-size: 4vw; /* Scales with screen */
     color: #FF4500;
     text-shadow: 2px 2px 5px #FFA500;
+    margin-bottom: 1.5vw;
 }
 
 .subtitle {
-    font-size: 2em;
+    font-size: 3vw;
     color: #008000;
+    margin-bottom: 2vw;
 }
 
 /* Alphabet Letters */
 .letters-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
-    max-width: 80%;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 1vw;
+    max-width: 90%;
     margin: auto;
     justify-content: center;
 }
 
+/* Smaller Alphabet Boxes */
 .letter {
     background: #3498db;
     color: white;
-    font-size: 3em;
-    padding: 20px;
-    border-radius: 15px;
+    font-size: 2.5vw; /* Optimized size */
+    padding: 1.5vw;
+    border-radius: 5px;
     cursor: pointer;
     text-align: center;
-    transition: 0.3s ease-in-out;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 9vw; /* Adjusted width */
+    height: 5vw; /* Adjusted height */
 }
 
 /* Hover & Click Effects */
 .letter:hover {
     background: #1abc9c;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 /* Image Display */
 .image-display img {
-    width: 300px;
-    height: 300px;
+    width: 25vw; /* Adjusted smaller */
+    height: auto;
     display: none;
-    border: 5px solid #FFA500;
-    border-radius: 20px;
+    border: 2px solid #FFA500;
+    border-radius: 8px;
 }
 
 /* Larger Font for Image Name */
 #imageName {
-    font-size: 2.5em;
+    font-size: 3vw;
     font-weight: bold;
     color: #008000;
-    margin-top: 15px;
+    margin-top: 1.5vw;
 }
 
 /* Quiz Button */
 .quiz-btn {
     background: #FF5733;
     color: white;
-    padding: 15px;
-    font-size: 1.5em;
-    border-radius: 15px;
+    padding: 1.5vw;
+    font-size: 2.5vw;
+    border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 2vw;
+    width: 60%;
 }
 
 .quiz-btn:hover {
