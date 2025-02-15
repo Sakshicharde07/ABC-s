@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Kids Learning App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="quiz-title">🤔 What does this letter stand for? 🤔</h2>
+    <h1 id="quizLetter">A</h1>
+    <div class="options">
+        <button class="option" onclick="checkAnswer(true)">Apple 🍎</button>
+        <button class="option" onclick="checkAnswer(false)">Ball ⚽</button>
+    </div>
+    <p id="feedback"></p>
+    <button id="nextButton" onclick="nextQuestion()">Next ➡️</button>
+    <a href="alphabet.html"><button class="back-button">🔙 Back to Learning</button></a>
+    <script src="script.js"></script>
+</body>
+</html>

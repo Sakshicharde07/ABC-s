@@ -1,0 +1,151 @@
+/* Quiz Button */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fce4ec; /* Soft pink background */
+}
+
+.welcome-screen h1 {
+    font-size: 36px; /* Increase font size */
+    font-weight: bold;
+    color: #ff4081; /* Bright pink for kids' attraction */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-screen p {
+    font-size: 24px; /* Increase font size */
+    color: #ff4081;
+    font-weight: bold;
+}
+/* Alphabet Letters */
+.letters-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2vw;
+    max-width: 90%;
+    margin: auto;
+}
+
+.letter {
+    background: #FFD700;
+    color: black;
+    font-size: 4vw;
+    padding: 3vw;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #ff4081; /* Vibrant pink */
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #f50057; /* Darker pink on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.quiz-btn {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-top: 3vw;
+}
+
+.quiz-btn:hover {
+    background-color: #f50057;
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Image Display (Centered) */
+.image-display {
+    text-align: center;
+    margin-top: 5vw;
+}
+h1, h2 {
+    font-size: 2rem;
+    color: #4caf50;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #45a049;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#nextButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+#nextButton:hover {
+    background-color: #005f6b;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+
+.center-image {
+    width: 40vw;
+    height: auto;
+    border: 5px solid #FFA500;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+#imageName {
+    font-size: 5vw;
+    font-weight: bold;
+    color: #008000;
+    margin-top: 2vw;
+}
+
+
+
